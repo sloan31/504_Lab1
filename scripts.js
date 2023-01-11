@@ -51,7 +51,7 @@ function onLocationFound(e) {
         var sunset = times.sunset.getHours()+ ":" + times.sunset.getMinutes();
         
         
-console.log(sunrise, sunset)
+
 
         var currentTime = new Date().getHours() + new Date().getMinutes();
             if (sunrise < currentTime && currentTime < sunset){
